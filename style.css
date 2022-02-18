@@ -1,0 +1,46 @@
+body{
+    background-color: darkseagreen;
+}
+
+h1{
+    font-family: 'Metal Mania', sans-serif;
+    color: teal;
+    background-color: peachpuff;
+}
+
+.h4{
+    font-family: 'Lounge Bait', sans-serif;
+    color: darkslategrey;
+    background-color: bisque;
+}
+
+button{
+    font-family: 'Lounge Bait', sans-serif;
+    color: teal;
+    background-color: aliceblue;
+}
+
+#show_sketch{
+    float: right;
+}
+
+canvas{
+    border:5px solid dimgrey;
+    border-radius: 25px;
+    animation-name: example;
+    animation-duration: 5s;
+    margin-top: 60px;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    from {box-shadow: 1px 1px 38px linen;}
+     to {box-shadow: 1px 1px 38px silver;}
+}
+
+p{
+    font-family: 'DORAEMON', sans-serif;
+    color: lightblue;
+    padding-top: 1px;
+    font-size: 30px;
+}
